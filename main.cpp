@@ -3,23 +3,24 @@ using namespace std;
 
 int main() {
    
-   int n = 0, somma = 0, risultato = 0;
+   int n = 0, primo = 1, secondo = 1, somma = 0;
    
-   cin >> n;
+   do{
+      cin >> n;
+   }while(n < 2);
    
-   while(n >= 2 && risultato <= 8)
+   cout << primo << "\n" << secondo << endl;
+   
+   for(int i = 0; i < n; i++)
    {
-      risultato = somma + n;
-      somma = n;
-      n = risultato;
+      somma = primo + secondo;
+      primo = secondo;
+      somma = secondo;
       
-      cout << risultato << endl;
+      cout << "somma" << endl;
+      
+      i++;
    }
    
-   if(n < 2)
-   {
-      cout << "errore";
-   }
-     
    return 0;
 }
