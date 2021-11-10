@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
    
-   int n = 0, primo = 1, secondo = 1, somma = 0, int i;
+   int n = 0, primo = 1, secondo = 1, somma = 0, i = 0;
    
    cin >> n;
    
