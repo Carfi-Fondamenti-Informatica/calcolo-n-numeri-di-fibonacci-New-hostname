@@ -7,17 +7,16 @@ int main() {
    
    cin >> n;
    
-   do{
-      if(n >= 2)
-      {
-         somma = somma + n;
-         cout << somma << endl;
-      }
-      else
-      {
-         cout << "errore";
-      }
-   }while(somma <= 20);
+   while(n >= 2)
+   {
+      somma = somma + n;
+      cout << somma << endl;
+   }
+   
+   if(n < 2)
+   {
+      cout << "errore";
+   }
      
    return 0;
 }
