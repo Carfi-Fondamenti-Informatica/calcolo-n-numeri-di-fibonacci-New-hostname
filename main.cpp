@@ -12,15 +12,13 @@ int main() {
       cout << primo << endl;
       cout << secondo << endl;
    
-      for(int i = 0; i < 8; i++)
+      for(int i = 0; i <= 8; i++)
       {
          somma = primo + secondo;
          primo = secondo;
          secondo = somma;
       
          cout << somma << endl;
-      
-         i++;
       }
    }
    else
