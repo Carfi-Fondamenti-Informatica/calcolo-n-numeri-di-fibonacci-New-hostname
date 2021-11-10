@@ -13,7 +13,7 @@ int main() {
          somma = somma + n;
          
          cout << somma << endl;
-      }(somma != 0)
+      }(somma != 0);
    }
    else
    {
