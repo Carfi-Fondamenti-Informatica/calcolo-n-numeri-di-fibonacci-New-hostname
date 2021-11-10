@@ -9,6 +9,11 @@ int main() {
       cin >> n;
    }while(n < 2);
    
+   if(n < 2)
+   {
+      cout << "errore" << endl;
+   }
+   
    cout << primo << "\n" << secondo << endl;
    
    for(int i = 0; i < n; i++)
@@ -17,7 +22,7 @@ int main() {
       primo = secondo;
       somma = secondo;
       
-      cout << "somma" << endl;
+      cout << somma << endl;
       
       i++;
    }
