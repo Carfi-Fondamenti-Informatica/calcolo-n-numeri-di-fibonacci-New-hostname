@@ -7,7 +7,7 @@ int main() {
    
    do{
 	   cin >> n;
-   } while(n < 2);
+   } while(n <= 2);
    
    if(n >= 2)
    {
