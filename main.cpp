@@ -7,7 +7,7 @@ int main() {
    
    cin >> n;
    
-   while(n >= 2)
+   while(n >= 2 && somma <= 8)
    {
       somma = somma + n;
       cout << somma << endl;
