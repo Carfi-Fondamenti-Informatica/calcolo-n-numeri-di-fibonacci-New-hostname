@@ -3,14 +3,17 @@ using namespace std;
 
 int main() {
    
-   int n = 0, somma = 0;
+   int n = 0, somma = 0, risultato = 0;
    
    cin >> n;
    
-   while(n >= 2 && somma <= 8)
+   while(n >= 2 && risultato <= 8)
    {
-      somma = somma + n;
-      cout << somma << endl;
+      risultato = somma + n;
+      somma = n;
+      n = risultato;
+      
+      cout << risultato << endl;
    }
    
    if(n < 2)
