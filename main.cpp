@@ -9,7 +9,8 @@ int main() {
    
    if(n >= 2)
    {
-      cout << primo << "\n" << secondo << endl;
+      cout << primo << endl;
+      cout << secondo << endl;
    
       for(int i = 0; i < n; i++)
       {
