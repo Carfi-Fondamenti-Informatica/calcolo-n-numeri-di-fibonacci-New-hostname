@@ -13,7 +13,7 @@ int main() {
          somma = somma + n;
          
          cout << somma << endl;
-      }while(somma != 0);
+      }while(somma <= 20);
    }
    else
    {
