@@ -12,7 +12,7 @@ int main() {
       cout << primo << endl;
       cout << secondo << endl;
    
-      for(int i = 0; i < n; i++)
+      for(int i = 0; i < 9; i++)
       {
          somma = primo + secondo;
          primo = secondo;
