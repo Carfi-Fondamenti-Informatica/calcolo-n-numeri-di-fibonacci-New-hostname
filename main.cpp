@@ -7,7 +7,7 @@ int main() {
    
    cin >> n;
    
-   if(n >= 2)
+   if(n >= 2 && n <= 8)
    {
       cout << primo << "\n" << secondo << endl;
    
