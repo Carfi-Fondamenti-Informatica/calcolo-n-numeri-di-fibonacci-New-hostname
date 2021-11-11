@@ -5,9 +5,10 @@ int main() {
    
    int n = 0, primo = 1, secondo = 1, somma = 0, i = 0;
    
+   cin >> n;
+   
    if(n >= 2)
    {
-      cin >> n;
       cout << primo << endl;
       cout << secondo << endl;
    
